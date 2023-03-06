@@ -2,6 +2,9 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 from PIL import Image
+import os
+
+"""%s""" % str(os.getcwd())
 
 tab1, tab2, tab3 = st.tabs(['1.基本的命令行命令', '2.硬件', '3.环境配置'])
 
